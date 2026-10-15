@@ -1,0 +1,17 @@
+# Original data stay on Figshare, including restricted D3 source material.
+/dataset/
+
+# Release archives and their archive-specific checksums are not tracked in Git.
+*.zip
+*.zip.sha256
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.part
+
+# Local filesystem and Python cache files.
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc

@@ -1,0 +1,12 @@
+# Keep repository documentation consistent across platforms.
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Preserve release documents byte for byte: D3's manifest hashes these files.
+/release_metadata/** -text whitespace=cr-at-eol
+
+# Retain the official Creative Commons license text, including its final blank line.
+**/LICENSE.txt whitespace=cr-at-eol,-blank-at-eof
