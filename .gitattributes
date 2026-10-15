@@ -5,7 +5,7 @@
 .gitattributes text eol=lf
 .gitignore text eol=lf
 
-# Preserve release documents byte for byte: D3's manifest hashes these files.
+# Preserve published release documents byte for byte.
 /release_metadata/** -text whitespace=cr-at-eol
 
 # Retain the official Creative Commons license text, including its final blank line.
