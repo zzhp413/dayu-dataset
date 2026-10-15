@@ -25,7 +25,7 @@ The archive links refer to the files published in version 1 on 2026-10-15. The b
 | Source model | Original creator | Distributed directories | Processing |
 | --- | --- | --- | --- |
 | [Construction site, building site, architecture](https://sketchfab.com/3d-models/construction-site-building-site-architecture-62fc443a7d91465f844de1cf95731f60) | [Metazeon](https://sketchfab.com/Metazeon) | `20250408_004_OUTPUT_LOD04/` | No additional processing |
-| [Small Canadian Street Experiment Photogrammetry](https://sketchfab.com/3d-models/small-canadian-street-experiment-photogrammetry-1bdfb91607ea4310a4bebdbf167714c7) | [Air Digital](https://sketchfab.com/AirDigitalca) | `fullstree_1/` through `fullstree_5/` | Partitioned into five parts using MeshLab |
+| [Small Canadian Street Experiment Photogrammetry](https://sketchfab.com/3d-models/small-canadian-street-experiment-photogrammetry-1bdfb91607ea4310a4bebdbf167714c7) | [Air Digital](https://sketchfab.com/AirDigitalca) | `fullstree_1/` through `fullstree_5/` | Partitioned into five parts using MeshLab and delete discrete vertices and faces |
 
 The full experimental D3 dataset also includes Google-sourced city scenes. The `berlin`, `los_angeles`, `paris`, and `sydney` data are **excluded from this public release and this repository**. The Figshare public subset contains no data from those four directories. Its statistics describe the public subset, rather than the complete experimental D3 dataset.
 
